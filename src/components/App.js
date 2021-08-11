@@ -5,8 +5,7 @@ import { AuthProvider } from './AuthContext';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './Login';
 import PrivateRoute from './PrivateRoute'
-import TodoList from './TodoList'
-import Calender from "./Calender"
+
 
 export default function App() {
   return (
@@ -22,7 +21,6 @@ export default function App() {
               <PrivateRoute exact path="/" component={TodoList} />
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
-              <Route path="/Calender" component={Calender} />
               </Switch>
             </AuthProvider>
           </Router>
