@@ -3,13 +3,13 @@ require('firebase/auth');
 require("firebase/firestore");
 
 
-var firebaseConfig = {
-  apiKey: "AIzaSyD4X1rWxULVwnd349dagx7xUIEfU1kppAs",
-  authDomain: "todo-list-7c42f.firebaseapp.com",
-  projectId: "todo-list-7c42f",
-  storageBucket: "todo-list-7c42f.appspot.com",
-  messagingSenderId: "546484060528",
-  appId: "1:546484060528:web:0be06fa3d51b2e8b028fb5"
+const firebaseConfig = {
+  apiKey: "AIzaSyCxcnj6-5-yDth8x14NToyCig4rHPvfmIc",
+  authDomain: "weatherapp-dbb74.firebaseapp.com",
+  projectId: "weatherapp-dbb74",
+  storageBucket: "weatherapp-dbb74.appspot.com",
+  messagingSenderId: "118043395343",
+  appId: "1:118043395343:web:b08637dffd131134d06a7a"
 };
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
