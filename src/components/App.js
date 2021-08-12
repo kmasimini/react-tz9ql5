@@ -19,7 +19,7 @@ export default function App() {
     <Router>
       <AuthProvider>
         <Switch>
-        <PrivateRoute exact path="/" component={Wheather} />
+        <Route exact path="/" component={Wheather} />
          <Route path="/signup" component={Signup} />
          <Route path="/login" component={Login} />
         </Switch>

@@ -1,11 +1,13 @@
 import React from 'react';
 
 
-export default function Wheather() {
-  return (
-   <div>
+const Weather = () =>{
+  return(
+    <div className="container">
 
-     Weather Today!
-     </div>
-  )
+      <h1>Weather App</h1>
+    </div>
+  );
 }
+
+export default Weather;
