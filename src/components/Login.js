@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Form, Button, Card, Alert } from 'react-bootstrap';
 import { useAuth } from './AuthContext';
 import { Link, useHistory } from 'react-router-dom';
+import './weather.css';
 
 
 export default function Login() {
@@ -29,7 +30,11 @@ export default function Login() {
 
   return (
     <>
-  
+      
+    <div className="form-container">
+     <div className="form-content-left"> 
+        <img src="" alt="" className="form-img" />
+      </div>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Login</h2>
@@ -52,6 +57,7 @@ export default function Login() {
           </Form>
         </Card.Body>
       </Card>
+      </div>
      
     </>
   );
