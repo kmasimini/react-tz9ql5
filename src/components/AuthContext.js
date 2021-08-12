@@ -15,7 +15,7 @@ export function AuthProvider({ children }) {
   return  auth.createUserWithEmailAndPassword(email, password)
   }
 
-  function login(email, password) {
+  function signin(email, password) {
     return auth.signInWithEmailAndPassword(email, password)
   }
 
@@ -35,7 +35,7 @@ export function AuthProvider({ children }) {
 
   const value =  {
     currentUser,
-    login,
+    signin,
     signup,
     logout
   }
