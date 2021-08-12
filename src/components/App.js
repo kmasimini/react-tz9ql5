@@ -3,7 +3,8 @@ import Signup from './Signup';
 import { Container } from 'react-bootstrap';
 import { AuthProvider } from './AuthContext';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Wheather from './Wheather'
+import Wheather from './Wheather';
+import Login from './Login'
 
 
 
@@ -19,6 +20,7 @@ export default function App() {
         <Switch>
         <Route exact path="/" component={Wheather} />
          <Route path="/signup" component={Signup} />
+         <Route path="/login" component={Login} />
         </Switch>
       </AuthProvider>
     </Router>
