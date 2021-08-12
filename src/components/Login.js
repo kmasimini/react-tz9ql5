@@ -8,8 +8,9 @@ export default function Login() {
   const emailRef = useRef();
   const passwordRef = useRef();
   const { login } = useAuth();
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const history = useHistory()
 
   async function handleSubmit(e){
    try{
