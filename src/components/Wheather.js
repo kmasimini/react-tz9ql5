@@ -31,7 +31,6 @@ function Weather(){
     <Container>
 
       <AppName>Weather App</AppName>
-      <CityComponent/>
       <WeatherInfoComponent />
     </Container>
   );
