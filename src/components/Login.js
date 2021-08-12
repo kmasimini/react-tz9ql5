@@ -33,7 +33,6 @@ export default function Login() {
       
     <div className="form-container">
      <div className="form-content-left"> 
-        <img src="" alt="" className="form-img" />
       </div>
       <Card>
         <Card.Body>
