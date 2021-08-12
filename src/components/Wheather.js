@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import CityComponent from './CityComponent';
+import WeatherInfoComponent from './WeatherInfoComponent';
 
 
 const Container = styled.div`
@@ -21,15 +23,6 @@ const AppName = styled.span`
 
 `;
 
-const CityComponents = styled.div`
- display: flex;
- flex-direction: column;
-`;
-
-const WeatherComponents = styled.div`
- display: flex;
- flex-direction: column;
-`;
 
 
 function Weather(){
@@ -38,8 +31,8 @@ function Weather(){
     <Container>
 
       <AppName>Weather App</AppName>
-      < CityComponents>CityComponents</ CityComponents>
-      <WeatherComponents>WeatherComponents</WeatherComponents>
+      <CityComponent/>
+      <WeatherInfoComponent />
     </Container>
   );
 }

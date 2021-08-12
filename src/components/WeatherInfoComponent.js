@@ -1,7 +1,7 @@
 
 
-const WeatherComponent = () =>{
+const WeatherInfoComponent = () =>{
   return "WeatherComponent";
 };
 
-export default WeatherComponent;
+export default WeatherInfoComponent;
