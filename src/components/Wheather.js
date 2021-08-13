@@ -6,7 +6,7 @@ const api = {
   base: 'https://api.openweathermap.org/data/2.5/'
 };
 
-export default function App() {
+export default function Wheather() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
