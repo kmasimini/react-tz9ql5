@@ -20,9 +20,8 @@ export default function App() {
       <AuthProvider>
         <Switch>
         <PrivateRoute exact path="/" component={Wheather} />
-        <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-         
+        <Route path="/login" component={Login} />
         </Switch>
       </AuthProvider>
     </Router>
